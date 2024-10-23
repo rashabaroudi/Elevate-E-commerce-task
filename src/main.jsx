@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/Elevate-E-commerce-task'>
     <ProductContextProvider>
       <Navbar/>
       <App />
